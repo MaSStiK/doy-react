@@ -1,35 +1,29 @@
-.Form__box {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: stretch;
-    align-content: stretch;
-    justify-content: space-around;
-}
-
-.Box__title {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: stretch;
-    align-content: stretch;
-    justify-content: space-around;
+* {
+    background-color: #323544;
+    color: white;
 }
 
 .Box__message {
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: stretch;
-    align-content: stretch;
-    justify-content: space-around;
+    flex-direction: column-reverse;
 }
 
-.Box__send {
+footer {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: stretch;
-    align-content: stretch;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.send_top {
+    display: flex;
+}
+
+.send_bottom {
+    display: flex;
 }

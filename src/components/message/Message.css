@@ -1,0 +1,15 @@
+.message {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid #168b8b;
+    margin: 20px 20px 0 20px;
+    border-radius: 15px;
+    font-family: sans-serif;
+}
+
+.message_name, .message_text {
+    margin-left: 15px;
+    font-size: 20px;
+    padding: 20px 0 20px 20px;
+}
